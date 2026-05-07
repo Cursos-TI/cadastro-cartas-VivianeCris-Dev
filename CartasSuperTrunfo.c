@@ -84,8 +84,8 @@ int main() {
   // Área para exibição dos dados da cidade 1
   
   printf("\nCarta 1\n");
-  printf("Estado: %s\n", &estado1);
-  printf("Código: %s\n", &codigo1);
+  printf("Estado: %s\n", estado1);
+  printf("Código: %s\n", codigo1);
   printf("Nome Da Cidade: %s", nomeDaCidade1);
   printf("População: %lu\n", populacao1);
   printf("Área: %.2f Km\n", area1);
@@ -97,8 +97,8 @@ int main() {
   // Área para exibição dos dados da cidade 2
   
   printf("\nCarta 2\n");
-  printf("Estado: %s\n", &estado2);
-  printf("Código: %s\n", &codigo2);
+  printf("Estado: %s\n", estado2);
+  printf("Código: %s\n", codigo2);
   printf("Nome Da Cidade: %s", nomeDaCidade2);
   printf("População: %lu\n", populacao2);
   printf("Área: %.2f Km\n", area2);
